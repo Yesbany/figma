@@ -6,8 +6,7 @@ import Pagination from './components/Pagination'
 import ResidentForm from './components/ResidentForm'
 import ResidentHeader from './components/ResidentHeader'
 import ResidentList from './components/ResidentList'
-import { numbersPage } from './utils/handlePagination'
-import { getRandomNumber } from './Utils/handleRandom'
+import { getRandomNumber } from './utils/handleRandom'
 
 const RESIDENTS_FORPAGE = 12;
 
