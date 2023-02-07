@@ -1,0 +1,28 @@
+.LocationInfo {
+    max-width: 890px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #062226;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px 0px #555657;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.LocationInfo__name {
+    font-size: 20px;
+}
+
+.LocationInfo__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.LocationInfo__item span {
+    font-weight: bold;
+    line-height: 1.5;
+}

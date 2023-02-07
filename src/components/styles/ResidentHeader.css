@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    max-height: 372px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+@media (min-width: 768px) {
+    .header {
+        overflow: hidden;
+    }
+}
+
+.headerImgFondo img{
+    width: 100%;
+    height: auto;
+}
+
+.headerImgTitle {
+    position: absolute;
+    width: 30%;
+    height: 176px;
+    /* width: 30%; */
+    top: 20%;
+    left: 38%;
+}
